@@ -1,0 +1,99 @@
+.card-contact{background:#004bb2;border-radius:15px;color:#fff;padding-bottom: 15rem!important}
+.card-subtitle{position: relative;}
+.card-subtitle:after {
+    background-color: #d6d415;
+    padding: 0 20px;
+    content: " ";
+    position: absolute;
+    bottom: -10px;
+    width:30%;
+    height: 3px;
+    left:35%;
+}
+.card-header{background:none}
+.card-contact{}
+.start-50 {left: 50%!important;}
+.top-100 {top: 100%!important;}
+.top-80 {top: 80%!important;}
+.translate-middle {-webkit-transform: translate(-50%,-50%)!important;transform: translate(-50%,-50%)!important;}
+
+/*-------------------------------------
+btn style
+---------------------------------------*/
+.prm-btnn {
+    background: rgb(35,146,192);
+    background: -moz-linear-gradient(top, rgba(35,146,192,1) 0%, rgba(35,146,192,1) 20%, rgba(49,129,182,1) 71%, rgba(57,122,180,1) 86%, rgba(58,117,175,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(35,146,192,1) 0%,rgba(35,146,192,1) 20%,rgba(49,129,182,1) 71%,rgba(57,122,180,1) 86%,rgba(58,117,175,1) 100%);
+    background: linear-gradient(to bottom, rgba(35,146,192,1) 0%,rgba(35,146,192,1) 20%,rgba(49,129,182,1) 71%,rgba(57,122,180,1) 86%,rgba(58,117,175,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2392c0', endColorstr='#3a75af',GradientType=0 );
+    color: #fff !important;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    line-height: 42px;
+    padding: 0 42px;
+    border: none;
+    text-transform: uppercase;
+    font-size: 14px;
+ box-shadow: rgb(0 0 0 / 56%) 14px 16px 20px -8px;
+}
+.prm-btnn:hover{color: #fff;}
+.formdata .form-group{color:#21283e; }
+.formdata .form-group label{ font-size: 18px!important; font-weight: 400; color: #21283e; }
+.formdata .form-group .form-control, .formdata input{color: #8a95b6; font-weight: 400; font-size: 16px;     padding: 12px 12px;}
+
+
+.formdata input::placeholder {
+  color: #8a95b6;
+}
+.formdata textarea::placeholder {
+  color: #8a95b6;
+}
+::-webkit-input-placeholder { /* Edge */
+  color: #8a95b6;
+}
+
+::-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #8a95b6;
+  font-size: 16px;
+}
+
+.formdata .form-group .form-check-inline .form-check-label {
+    margin-bottom: 0;
+    font-size: 13px !important;
+    color: #8a95b6;
+}
+
+.forSize{font-size: 24px; color: #21283e;}
+
+.bgimgblue{
+  background-image: url("./images/bgblueeeimg.png"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height:600px ; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.contactt li{font-size: 18px!important; font-weight: 400;}
+.pngimg {
+    position: absolute;
+    left: 34px;
+}
+.imgggblue {
+    padding-bottom: 78px;
+}
+.contact-container {
+    padding-bottom: 70px!important;
+    box-shadow: 0 0 16px 0px #d8e2f8;
+}
+.section-body.mb-3.p-4.contact-container {
+    padding-bottom: 79px !important;
+}
+
+.address img {
+    position: absolute;
+    left: 0;
+    top: 52px;
+}
+.address {
+    padding-left: 49px;
+    position: relative;

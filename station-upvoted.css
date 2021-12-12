@@ -1,0 +1,53 @@
+section .section-header .upvoted-line:after {
+    background-color: #D716A5;
+    padding: 0 20px;
+    content: " ";
+    position: absolute;
+    bottom: -7px;
+    width: 62%!important;
+    height: 3px;
+    left: 0;
+}
+section .col-12 .card.outer.new {
+    padding: 20px 20px 5px 20px;
+    border-radius: 15px;
+    border: 0px;
+}
+
+a.btn.btn-outline-primary.btn-round.font-12.create-post.float-right.blue-create-post {
+    color: #2391bf;
+
+}
+a.btn.btn-outline-primary.btn-round.font-12.create-post.float-right.blue-create-post:hover {
+    color: #fff;
+}
+.postImages{
+    justify-content: flex-start!important;
+}
+
+@media screen and (max-width: 990px){
+
+    .postImages{
+     justify-content: flex-start!important;
+     display: block !important;
+   }
+   .postImages a {
+    display: inline-block;
+    width: 49%;
+    margin: 0 !important;
+    padding: 5px;
+}
+   .postImages a img{
+     width:100%;
+   }
+}
+
+@media screen and (max-width: 768px){
+
+   .postImages a {
+    display: inline-block;
+    width: 100%;
+    padding: 5px;
+}
+
+}

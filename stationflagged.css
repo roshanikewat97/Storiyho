@@ -1,0 +1,107 @@
+@import url('//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css');
+
+/*Topic Style*/
+.accordion-toggle:after {
+    font-family: 'FontAwesome';
+    content: "\f078";    
+    float: right;
+}
+.accordion-opened .accordion-toggle:after {    
+    content: "\f054";    
+}
+
+.accordion-toggle[aria-expanded=true]:after{
+
+	-webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+          transition: 0.5s;
+}
+.accordion-toggle:after{
+          transition: 0.5s;
+          position: relative;
+    right: 7px;
+    border: 1px solid #f3f9ff;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    text-align: center; 
+    line-height: 35px;
+    
+    margin-right: 10px;
+    background-color: #f3f9ff;
+    color: #3a405b;
+    font-size: 10px;
+    top: -6px;
+}
+.flagged-font{font-size: 16px; font-weight: 300; color: #cacedc;}
+.section-body .article .article-title.new {border-bottom: 0px;}
+.section-body .article .media.border1{
+ border-bottom: 0px;
+}
+
+section .section-body{ border-radius: 10px!important; }
+.top-padding{padding-top: 10px; font-weight:500 ; font-size: 18px; color: #21283e;}
+.author.text-gray{font-size: 14px; font-weight: 400; color: #8a95b6;}
+
+
+.add {
+    position: relative;
+    top: -2px;
+}
+.deleteicon{
+    position: relative;
+    top: -8px;
+}       
+section .section-header .flag-line:after {
+    background-color: #D716A5;
+    padding: 0 20px;
+    content: " ";
+    position: absolute;
+    bottom: -7px;
+    width: 62%!important;
+    height: 3px;
+    left: 0;
+}
+.section-body .article .article-title.bordernone {
+     border-bottom: 0px solid #E4E7EE; 
+    padding-bottom: 8px;
+    display: inline-block;
+    width: 100%;
+}
+
+.bg-img-btn.active  {
+  background-image: url("./images/btn-blue.png"); /* The image used */
+  background-color: transparent; /* Used if the image is unavailable */
+   
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: 100% 98%; /* Resize the background image to cover the entire container */
+  color: #2391bf !important;
+     
+}
+.bg-img-btn {
+    width: 156px;
+    text-align: center;
+    height: 62px;
+    line-height: 35px;
+}
+
+.nav-pills .nav-link.active:after {
+    border-top: 0px solid #2490be;
+    border-left: 0px solid transparent;
+    border-right: 0px solid transparent;
+    content: "";
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1px;
+    bottom: 0px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: transparent;
+}

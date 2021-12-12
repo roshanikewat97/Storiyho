@@ -1,0 +1,177 @@
+a.btn.btn-outline-primary.btn-round.font-12.create-post.float-right.blue-create-post {
+    color: #2391bf;
+
+}
+a.btn.btn-outline-primary.btn-round.font-12.create-post.float-right.blue-create-post:hover {
+    color: #fff;
+}
+section .section-header .sec-heading.post-line-neww:after {
+    background-color: #D716A5;
+    padding: 0 20px;
+    content: " ";
+    position: absolute;
+    bottom: -7px;
+    width: 49%;
+    height: 3px;
+    left: 0;
+}
+section .section-header .sec-heading.new:after {
+    background-color: #D716A5;
+    padding: 0 20px;
+    content: " ";
+    position: absolute;
+    bottom: -7px;
+    width: 70%;
+    height: 3px;
+    left: 0;
+}
+
+.bg-img-btn.active  {
+  background-image: url("./images/btn-blue.png"); /* The image used */
+  background-color: transparent; /* Used if the image is unavailable */
+   
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: 100% 100%; /* Resize the background image to cover the entire container */
+  color: #2391bf !important;
+     
+}
+/*Top btn Design*/
+.bg-img-btn {
+    width: 156px;
+    text-align: center;
+    height: 61px;
+    line-height: 35px;}
+.nav-pills .nav-link.active:after {
+    border-top: 0px solid #2490be;
+    border-left: 0px solid transparent;
+    border-right: 0px solid transparent;
+    content: "";
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1px;
+    bottom: 0px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: transparent;
+}
+/*.btn.disabled.btn-outline-primary{border-color:#bec4d9 !important;}*/
+a.create-post1 {
+    background: url(./images/gray-plus-icon.png)no-repeat 10px 6px;
+    padding-left: 40px;
+}
+section .section-header .sec-heading.widgetheading-new {
+    font-size: 20px;
+    color: #fff;
+}
+.widget-section figure.figure figcaption.figure-caption-new {
+    position: absolute;
+    top: 3rem;
+    width: 80%!important;
+}
+.col-md-9.newpadding{padding: 30px;}
+.figure-img-new {
+     margin-bottom: 2px; 
+    line-height: 1;
+}
+.widget-section {
+    width: 100%;
+}.widget-section figure.figure img {
+    position: relative;width: 56%;
+}
+.widget-section figure.figure .figure-img-new{
+    width: 100%!important;
+}
+figure.figure.new {
+    width: 100%;
+    padding-right: 26px;
+}
+/*search-Userid style*/
+.text-johndoeband{color: #2391bf; padding-left: 10px;}
+.follo-margin{margin-top: 15px; padding-left: 40px; padding-right: 40px}
+.media-body p.author.font16 {
+    color: #8a95b6 !important;
+    font-size: 16px!important;
+    font-weight: 400;
+}
+
+/*search*/
+.nav-tabs {
+  margin-bottom: 1rem;
+}
+#searchtopic {
+    background: url(./images/arrow-black.png);
+   background-repeat: no-repeat;
+    background-position: 94% 55%;
+    padding-left: 13px;
+    padding-right: 37px;
+    border-left: 1px solid #ccc;
+    border-radius: 0;
+    margin-right: 5px;
+}
+/*search-Userid style*/
+.text-johndoeband{color: #2391bf; padding-left: 10px;}
+.follo-margin{margin-top: 15px; padding-left: 40px; padding-right: 40px}
+.media-body p.author.font16 {
+    color: #8a95b6 !important;
+    font-size: 16px!important;
+    font-weight: 400;
+}
+/*search station*/
+.text-johndoeband1{color: #8a95b6; padding-left: 10px; font-weight: 400;}
+.media-body p.author.font18 {
+    color: #2391bf !important;
+    font-size: 18px!important;
+    font-weight: 400;
+}
+.viewbtn-margin{margin-top: 22px;}
+span.newfont18 { 
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/*dropdawn item*/
+.dropdown-item.ac.active, .dropdown-item.ac:active {
+    color: #007bff!important;
+    text-decoration: none;
+     background-color: #fff!important; 
+}
+ .dropdown-menu.topicitems {
+    position: absolute;
+    top: 94%;
+    left: -44%;
+    z-index: 1000;
+    float: left;
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgb(73 99 118 / 15%);
+    border-radius: .25rem;
+    box-shadow: 3px -3px 20px #ccc;
+}
+.dropdown-menu.topicitems:after{right: 15px !important}
+#pills-dropdown3 .media-body h5{font-weight: 600;}
+#pills-dropdown3 .media-body p.author {
+    color: #8a95b6 !important;
+    font-size: 16px!important;
+    font-weight: 400;
+}
+
+@media (min-width: 992px){
+.search-form input[type="search"].form-control {
+    width: calc(89% - 105px);
+}}
+

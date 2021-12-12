@@ -1,0 +1,9 @@
+.card.comments-list-card{border-radius: 15px ;box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;}
+.card.comments-list-card .media .media-body .delete{position: absolute;right: 15px;display: inline-block;
+    cursor: pointer;z-index: 99}
+.card.comments-list-card .media .media-body .article-title{font-size:16px;color:#8b92ab;    padding-right: 40px; font-weight: 400;}
+.card.comments-list-card .media .media-body .article-title span{color:#2391bf; font-stretch: 16px; font-weight: 500;}
+.card.comments-list-card .media .media-body .article-body p{font-size: 16px;color: #21283e;margin-bottom: 15px;line-height: 1.2; font-weight: 400;}
+.card.comments-list-card .media .media-body p.author{font-size: 14px;color:#8a95b6;}
+.card.comments-list-card .media .media-body p.author .authername{color:#2391bf }
+.delete{padding: 5px 5px;}

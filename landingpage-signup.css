@@ -1,0 +1,24 @@
+.modal-body{padding: 1rem 2rem;}
+label{font-size:18px; font-weight: 400;}
+.form-control{height:3.8rem;border-color:#e3e8f0;padding:.375rem 1rem; font-weight: 400; font-size: 16px; }
+.form-control::placeholder{color:#8a95b6;font-size: 1rem} 
+/*.submit-btn{background: linear-gradient(180deg, rgba(35,145,191,1) 0%, rgba(44,134,186,1) 25%, rgba(40,139,188,1) 50%, rgba(53,124,181,1) 75%, rgba(75,97,168,1) 100%);} */
+a{color:#2291be;text-decoration:underline; }
+a:hover{text-decoration:none; }
+.modal-dialog
+
+
+
+@media (min-width: 768px){
+.modal-dialog {
+    max-width: 700px;
+    margin: 1.75rem auto;
+}
+}
+
+@media (min-width: 992px){
+.modal-dialog {
+    max-width: 930px;
+    margin: 1.75rem auto;
+}
+}

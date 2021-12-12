@@ -1,0 +1,143 @@
+@import url('//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css');
+
+/*Topic Style*/
+.accordion-toggle:after {
+    font-family: 'FontAwesome';
+    content: "\f078";    
+    float: right;
+}
+.accordion-opened .accordion-toggle:after {    
+    content: "\f054";    
+}
+
+.accordion-toggle[aria-expanded=true]:after{
+
+	-webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+          transition: 0.5s;
+}
+.accordion-toggle:after {
+    transition: 0.5s;
+    position: relative;
+    right: 7px;
+    border: 1px solid #f3f9ff;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 41px;
+    margin-right: 10px;   
+    margin-left: 5px;
+    background-color: #f3f9ff;
+    color: #3a405b;
+    font-size: 10px;
+    /* top: 5px; */
+}
+/*Heading of Playlist*/
+
+.media-body h5.play {
+    font-size: 20px;
+    font-weight: 500;
+    color: #21283e;
+}
+.media-body p.author.new {
+    color: #9ba4c0 !important;
+    font-size: 16px !important;
+    font-weight: 400;   
+}
+
+
+.flagged-font{font-size: 16px; font-weight: 300; color: #cacedc;}
+.section-body .article .article-title.new {border-bottom: 0px;}
+.section-body .article .media.border1{
+ border-bottom: 0px;
+}
+/*.nav-pills .nav-link.active, .nav-pills .show>.nav-link{color: #2490be;border: 1px solid #2490be;background: none;line-height: 42px;padding: 0 22px;border-radius: 22px;position: relative;}
+.nav-pills .nav-link.active:after{border-top: 11px solid #2490be;
+    border-left: 11px solid transparent;
+    border-right: 11px solid transparent;
+    content: "";
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1px;
+    bottom: -10px;}*/
+
+.top-padding{padding-top: 10px; font-weight:500 ; font-size: 18px; color: #21283e;}
+.author.text-gray{font-size: 14px; font-weight: 400; color: #8a95b6;}
+
+
+.add {
+    position: relative;
+    top: -2px;
+}
+.deleteicon{
+    position: relative;
+    top: -8px;
+}       
+section .section-header .playlist-line:after {
+    background-color: #D716A5;
+    padding: 0 20px;
+    content: " ";
+    position: absolute;
+    bottom: -7px;
+    width: 72%!important;
+    height: 3px;
+    left: 0;
+}
+.section-body .article .create-new h5{ font-size: 18px; font-weight: 600; color: #3a405b; }
+.article.new {
+    border: dashed 3px #e3e8f0;
+}
+
+.section-body .article .article-title.bordernone {
+     border-bottom: 0px solid #E4E7EE; 
+
+}
+.accordion-heading {
+    width: calc(100% - 96px);
+        float: left;
+}
+.accordion-group img.musicplayer {
+    float: left;
+}
+
+h5.play a {
+
+    position: relative;
+    top:9px;
+}
+.author.new{
+ margin-bottom: 0;    
+}
+.section-body .article .article-body.art {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    overflow: auto;
+    width: 100%;
+}
+
+.accordia-t {
+    width: calc(100% - 100px);
+    border-top: 1px solid #e5e7ef;
+    display: block;
+    height: 20px;
+    float: right;
+} 
+.section-body .article .article-body.pp {
+     padding-top: 5px !important; 
+     padding-bottom: 0px !important; 
+}
+.section-body .article .article-body h5 {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 4px;
+    font-weight: 400;
+   
+}
+section .section-body.newplay{ border-radius: 0px !important;     }
+.section-body .article.row{box-shadow: 2px -5px 18px 0px #cccccc94;}
