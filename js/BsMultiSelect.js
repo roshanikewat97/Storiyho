@@ -1,7 +1,7 @@
 /*!
   * DashboardCode BsMultiSelect v0.6.28 (https://dashboardcode.github.io/BsMultiSelect/)
   * Copyright 2017-2020 Roman Pokrovskij (github user rpokrovskij)
-  * Licensed under APACHE 2 (https://github.com/DashboardCode/BsMultiSelect/blob/master/LICENSE)
+  * Licensed under APACHE 2   kjklkj (https://github.com/DashboardCode/BsMultiSelect/blob/master/LICENSE)
   */
 (function (global, factory) {
     typeof exports === 'object' && typeof module !== 'undefined' ? factory(require('jquery'), require('popper.js')) :
